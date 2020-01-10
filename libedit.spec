@@ -3,7 +3,7 @@
 Summary:	The NetBSD Editline library
 Name:		libedit
 Version:	3.0
-Release:	10.%{snap}cvs%{?dist}
+Release:	12.%{snap}cvs%{?dist}
 License:	BSD
 Group:		System Environment/Libraries
 URL:		http://www.thrysoee.dk/editline/
@@ -67,6 +67,12 @@ find $RPM_BUILD_ROOT -type f -name "*.la" -delete
 %{_includedir}/editline/readline.h
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.0-12.20121213cvs
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.0-11.20121213cvs
+- Mass rebuild 2013-12-27
+
 * Wed Feb 20 2013 Kamil Dudka <kdudka@redhat.com> - 3.0-10.20121213cvs
 - Update to 20121213-3.0 (#912957)
 
